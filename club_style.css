@@ -5,23 +5,28 @@
     display: grid;
     align-items: center;
     justify-items: center; 
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
     position: sticky;
-    top: 0;
+    top:0;
+    transform-origin: top;
 }
 
 .Image_club{
     height: auto;
-    width: 20vw;
+    width: 35%;
     align-content: center;
     justify-content: center;
     display: block;
 }
 
-.Total_content_club{
-    grid-area: contents;
-    align-content: center;
-    justify-content: center;
+#Total_content_club {
+    grid-area: contents
+}
+
+.Name_club {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0.5em;
 }
 
 body {
