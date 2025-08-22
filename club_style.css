@@ -1,0 +1,84 @@
+.container {
+    height: 100vh;
+    grid-template-areas:
+        "images contents";
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    grid-template-columns: 50% 50%;
+    position: sticky;
+    top: 0;
+}
+
+.Image_club{
+    height: auto;
+    width: 20vw;
+    align-content: center;
+    justify-content: center;
+    display: block;
+}
+
+.Total_content_club{
+    grid-area: contents;
+    align-content: center;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    align-items: left;
+    justify-items: left;
+    margin: 0;
+}
+
+.content_club {
+    font-size: 1.2em;
+    text-align: left;
+    position: absolute;
+    opacity: 0;
+}
+
+/* Specific styles for each club */
+#CCIT{
+    background: #450041;
+    box-shadow: 0 0 10px 0 #f0f,
+                0 0 20px 0 #f0f,
+                0 0 30px 0 #f0f;
+}
+#CMIT{
+    background: #111222;
+    box-shadow: 0 0 10px 0 #0617fc,
+                0 0 20px 0 #0617fc,
+                0 0 30px 0 #0617fc;
+}
+#CSIT{
+    background: #003d3e;
+    box-shadow: 0 0 10px 0 #20fbff,
+                0 0 20px 0 #25fbff,
+                0 0 30px 0 #00f8fc;
+}
+#ESI{
+    background: #422d00;
+    box-shadow: 0 0 10px 0 #ff7300,
+                0 0 20px 0 #ff7e14,
+                0 0 30px 0 #fc821e;
+}
+#Parsec{
+    background: rgb(17, 16, 16);
+    box-shadow: 0 0 10px 0 #444344,
+                0 0 20px 0 #444344,
+                0 0 30px 0 #444344;
+}
+#Proteus{
+    background: #133500;
+    box-shadow: 0 0 10px 0 #2cf82c,
+                0 0 20px 0 #2cf82c,
+                0 0 30px 0 #2cf82c;
+}
+#PSIT{
+    background: #22003a;
+    box-shadow: 0 0 10px 0 #a331f5,
+                0 0 20px 0 #9f17ff,
+                0 0 30px 0 #9500ff;
+}
